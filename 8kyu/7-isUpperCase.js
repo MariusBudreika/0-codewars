@@ -3,10 +3,10 @@ String.prototype.isUpperCase = function() {
         if (this[i] === this[i].toLowerCase()) {
             return false
         } 
-        else
+        else true
         }
     }
-  }
+  
 
   
   console.log('c'.isUpperCase(), false, 'c is not upper case');
